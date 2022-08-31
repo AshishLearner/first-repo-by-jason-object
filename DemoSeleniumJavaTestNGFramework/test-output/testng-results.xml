@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Page class - Before method execution]]>
+    </line>
+    <line>
+      <![CDATA[Validating the login page titie]]>
+    </line>
+    <line>
+      <![CDATA[Take sceenshot in case of failue and close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login Page class - Before method execution]]>
+    </line>
+    <line>
+      <![CDATA[Validating OrangeHRM logo image]]>
+    </line>
+    <line>
+      <![CDATA[Take sceenshot in case of failue and close browser]]>
+    </line>
+    <line>
+      <![CDATA[Login Page class - Before method execution]]>
+    </line>
+    <line>
+      <![CDATA[Login to OrangeHRM app]]>
+    </line>
+    <line>
+      <![CDATA[Login using username as: Admin and password as: admin123]]>
+    </line>
+    <line>
+      <![CDATA[Validating login is successfull by checking dashboard page title]]>
+    </line>
+    <line>
+      <![CDATA[<b><font color='Purple'> Verifying Login successful. Screenshot attached below:</font><b>]]>
+    </line>
+    <line>
+      <![CDATA[./Verify Login20220214045312.png]]>
+    </line>
+    <line>
+      <![CDATA[Take sceenshot in case of failue and close browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-14T16:52:34 IST" name="OrangeHRM Application Test Automation Test Suite" finished-at="2022-02-14T16:53:15 IST" duration-ms="40867">
+    <groups>
+      <group name="URS-0001">
+        <method signature="LoginPageTest.login_Page_Title_Test()[pri:1, instance:com.qa.testcases.LoginPageTest@61c4eee0]" name="login_Page_Title_Test" class="com.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.orangeHRM_Logo_Image_Test()[pri:2, instance:com.qa.testcases.LoginPageTest@61c4eee0]" name="orangeHRM_Logo_Image_Test" class="com.qa.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.login_Test(java.lang.String,java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@61c4eee0]" name="login_Test" class="com.qa.testcases.LoginPageTest"/>
+      </group> <!-- URS-0001 -->
+    </groups>
+    <test started-at="2022-02-14T16:52:34 IST" name="OrangeHRM App Test Cases" finished-at="2022-02-14T16:53:15 IST" duration-ms="40867">
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:34 IST" name="setUp" finished-at="2022-02-14T16:52:45 IST" duration-ms="11318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page class - Before method execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_Page_Title_Test()[pri:1, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:45 IST" name="login_Page_Title_Test" description="PQT-0001" finished-at="2022-02-14T16:52:45 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating the login page titie]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_Page_Title_Test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:45 IST" name="tearDown" finished-at="2022-02-14T16:52:47 IST" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_Page_Title_Test status=SUCCESS method=LoginPageTest.login_Page_Title_Test()[pri:1, instance:com.qa.testcases.LoginPageTest@61c4eee0] output=Validating the login page titie]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Take sceenshot in case of failue and close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:47 IST" name="setUp" finished-at="2022-02-14T16:52:58 IST" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page class - Before method execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orangeHRM_Logo_Image_Test()[pri:2, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:58 IST" name="orangeHRM_Logo_Image_Test" description="PQT-0002" finished-at="2022-02-14T16:52:58 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating OrangeHRM logo image]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orangeHRM_Logo_Image_Test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:52:58 IST" name="tearDown" finished-at="2022-02-14T16:53:00 IST" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orangeHRM_Logo_Image_Test status=SUCCESS method=LoginPageTest.orangeHRM_Logo_Image_Test()[pri:2, instance:com.qa.testcases.LoginPageTest@61c4eee0] output=Validating OrangeHRM logo image]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Take sceenshot in case of failue and close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:53:00 IST" name="setUp" finished-at="2022-02-14T16:53:11 IST" duration-ms="10345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Staging]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page class - Before method execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_Test(java.lang.String,java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:53:11 IST" name="login_Test" description="PQT-0003" data-provider="getTestData" finished-at="2022-02-14T16:53:12 IST" duration-ms="1693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login to OrangeHRM app]]>
+            </line>
+            <line>
+              <![CDATA[Login using username as: Admin and password as: admin123]]>
+            </line>
+            <line>
+              <![CDATA[Validating login is successfull by checking dashboard page title]]>
+            </line>
+            <line>
+              <![CDATA[<b><font color='Purple'> Verifying Login successful. Screenshot attached below:</font><b>]]>
+            </line>
+            <line>
+              <![CDATA[./Verify Login20220214045312.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_Test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@61c4eee0]" started-at="2022-02-14T16:53:12 IST" name="tearDown" finished-at="2022-02-14T16:53:15 IST" duration-ms="2506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_Test status=SUCCESS method=LoginPageTest.login_Test(java.lang.String,java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@61c4eee0] output=Login to OrangeHRM app]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Take sceenshot in case of failue and close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- OrangeHRM App Test Cases -->
+  </suite> <!-- OrangeHRM Application Test Automation Test Suite -->
+</testng-results>

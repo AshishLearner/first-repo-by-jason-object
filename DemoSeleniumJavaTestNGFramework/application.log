@@ -1,0 +1,22 @@
+2022-02-14 16:52:34,491  INFO [TestNG-tests-1] TestBase:44 - Message: Login Page class - Before method execution
+2022-02-14 16:52:45,811  INFO [TestNG-tests-1] TestBase:44 - Message: Validating the login page titie
+2022-02-14 16:52:45,821  INFO [TestNG-tests-1] TestBase:44 - Message: Take sceenshot in case of failue and close browser
+2022-02-14 16:52:47,410  INFO [TestNG-tests-1] TestBase:44 - Message: Login Page class - Before method execution
+2022-02-14 16:52:58,534  INFO [TestNG-tests-1] TestBase:44 - Message: Validating OrangeHRM logo image
+2022-02-14 16:52:58,603  INFO [TestNG-tests-1] TestBase:44 - Message: Take sceenshot in case of failue and close browser
+2022-02-14 16:53:00,781  INFO [TestNG-tests-1] TestBase:44 - Message: Login Page class - Before method execution
+2022-02-14 16:53:11,128  INFO [TestNG-tests-1] TestBase:44 - Message: Login to OrangeHRM app
+2022-02-14 16:53:11,129  INFO [TestNG-tests-1] TestBase:44 - Message: Login using username as: Admin and password as: admin123
+2022-02-14 16:53:12,704  INFO [TestNG-tests-1] TestBase:44 - Message: Validating login is successfull by checking dashboard page title
+2022-02-14 16:53:12,711  INFO [TestNG-tests-1] TestBase:44 - Message: <b><font color='Purple'> Verifying Login successful. Screenshot attached below:</font><b>
+2022-02-14 16:53:12,821  INFO [TestNG-tests-1] TestBase:44 - Message: Take sceenshot in case of failue and close browser
+2022-02-14 16:53:15,497 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-02-14 16:53:15,498 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2022-02-14 16:53:15,500 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-02-14 16:53:15,501 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-02-14 16:53:15,501 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bijitp/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-02-14 16:53:15,722 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-02-14 16:53:15,723 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2022-02-14 16:53:15,724 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-02-14 16:53:15,725 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-02-14 16:53:15,725 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/bijitp/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

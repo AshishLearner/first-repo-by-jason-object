@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Application Test Automation Test Suite"
+	parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener
+			class-name="com.qa.RetryAnalyzer.AnnotationTransformer" />
+	</listeners>
+
+	<test name="OrangeHRM App Test Cases">
+
+		<parameter name="appEnvironment" value="Staging" />
+		<parameter name="browser" value="Firefox" />
+
+		<!-- <groups> <run> <include name="URS-0001"></include> <include name="URS-0002"></include> 
+			</run> </groups> -->
+
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest"></class>
+			<!-- <class name="com.qa.testcases.DashboardPageTest"></class> -->
+			<!-- <class name="com.qa.testcases.MarketplacePageTest"></class> -->
+
+		</classes>
+	</test>
+
+	<!-- <test name="OrangeHRM App Test Cases - FIREFOX"> -->
+
+	<!-- <parameter name="browser" value="firefox" /> -->
+
+	<!-- <classes> -->
+	<!-- <class name="com.qa.testcases.LoginPageTest"></class> -->
+	<!-- <class name="com.qa.testcases.DashboardPageTest"></class> -->
+	<!-- <class name="com.qa.testcases.MarketplacePageTest"></class> -->
+
+	<!-- </classes> -->
+	<!-- </test> -->
+
+</suite>
